@@ -1,12 +1,22 @@
+연습문제 1
+list_1 = ['Life', 'is', 'too', 'short']
+print(" ".join(list_1))
 
-연습문제(모음 찾기)
+연습문제 2
+i=1
+while(i<5):
+    print("*"*i)
+    i += 1
+
+연습문제 3
 count = 0
 str_1 = "mutzangesazachurum"
 for i in str_1:
     if i in 'aeiou':
         count += 1
 print(count)
-
+list1=[1,2,3]
+print([i for i in list1])
 
 과제 1-1
 i=0
@@ -14,7 +24,8 @@ sum = 0
 while(i<1001):
     i+=1
     if i%3 == 0:
-        sum += i       
+        sum += i
+
 print(sum)
 
 #과제 1-2
@@ -33,8 +44,10 @@ while len(A)>0 :
 print(sum)
 
 #과제 2-1
+sum = 0
 for i in range(1, 101):
-    print(i)
+    sum += i
+print(sum)
 
 과제 2-2
 sum = 0
